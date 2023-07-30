@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&display=swap');
+/*---------*/
+/*Global Styles */
+
+/*Fonts*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+p {
+    font-family: 'Lato',
+        sans-serif;
+    font-size: 16px;
+}
+
+/*Spacing*/
+.full-height {
+    height: 100vh;
+}
+
+/*Components*/
+
+
+/*Card*/
+.card {
+    border-radius: 150px 150px 12px 12px;
+    background: #cac5c5;
+    text-align: center;
+    border: none;
+    height: 440px;
+}
+
+.card-img-top {
+    width: auto;
+    height: 320px;
+    margin: auto;
+    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-text {
+    color: #18382B;
+}
+
+.card-img-top.small {
+    height: 200px;
+}
+
+button {
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background-color: #18382B;
+    font-size: 16px;
+    color: white;
+}
+
+/*Bootstrap components*/
+/*Nav*/
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.nav-link:hover {
+    color: #18382B;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #18382B;
+    color: #18382B;
+}
+
+/*Carousel*/
+.carousel-item {
+    background-color: #E6F2E9;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    left: 84px;
+}
+
+.hero-image {
+    height: 90vh;
+    position: relative;
+    bottom: -100px;
+}
+
+/*Carousel slide 2*/
+.accordion-header {
+    background-color: #18382B;
+}
+
+.accordion-button {
+    color: black;
+    padding: 25px;
+}
+
+.accordion-button:hover {
+    background-color: #18382B;
+
+}
+
+.accordion-button.collapsed {
+    background-color: #E6F2E9;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #E6F2E9;
+    color: #18382B;
+}
+
+.accordion-body {
+    background-color: #18382B;
+    color: white;
+    border-radius: 10%;
+
+}
+
+/*Minus button on the table*/
+
+.btn-danger {
+    background-color: #18382B;
+    border-color: white;
+}
+
+.btn-danger:hover {
+    background-color: #18382bb0;
+    border-color: white;
+}
+
+table {
+    font-family: 'Montserrat', sans-serif;
+}
+
+table th {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+table td {
+    font-family: 'Montserrat', sans-serif;
+}
